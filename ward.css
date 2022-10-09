@@ -1,0 +1,79 @@
+/* Put your custom css and css overrides in this file */ 
+
+body {
+font-size: 100%;
+}
+
+.logo img {
+	height: 100px;
+}
+#mission {
+color: #34686d;
+font-size: 130%;
+}
+
+a:link {
+color: #43868d;
+text-decoration: none;
+font-weight: bold;
+}
+
+a:visited {
+color: #43868d;
+text-decoration: none;
+font-weight: bold;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+.site-name a:hover {
+text-decoration: none;
+}
+
+#rounded-menu-left {
+background:transparent url(menu-left-bg.gif) no-repeat;
+}
+
+#rounded-menu-right {
+background:transparent url(menu-right-bg.gif) no-repeat;
+}
+
+#menu {
+background:url(menu-bg.gif) repeat-x;
+}
+
+#nav li a:hover {
+background:transparent url(menu-hover-bg.gif) repeat-x;
+}
+
+#nav li.active-trail a {
+background:transparent url(menu-hover-bg.gif) repeat-x;
+}
+
+#superfish .menu li.active-trail li,
+#superfish .menu li li, 
+#superfish .menu li li li {
+	background-color: #43868d;
+}
+
+#superfish .menu li:hover {
+background:transparent url(menu-hover-bg.gif) repeat-x;
+}
+
+#superfish .menu li.active-trail {
+background:transparent url(menu-hover-bg.gif) repeat-x;
+}
+
+#superfish .menu a, #superfish .menu a:visited {
+font-size: 14px;
+}
+
+#notice {
+visibility: hidden;
+}
+
+#footer {
+text-align: right;
+}
